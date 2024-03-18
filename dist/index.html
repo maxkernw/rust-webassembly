@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="en"><head>
+    <base href="rust-webassembly/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rust app</title>
+    <link rel="stylesheet" href="rust-webassembly/styles-af07a44a409c58fa.css" integrity="sha384-3vg3lneYOVidnDZXabludzxw-u6bKiKdSk7KxJKG17rz7c6X0FqgCadDlfaAYyfR">
+
+<link rel="preload" href="rust-webassembly/rust-app-df234a7f7e8c425f_bg.wasm" crossorigin="anonymous" integrity="sha384-3gDeN7iWpFjSSky_hpr78LzFVVOYKWwDzAka9nzsqH1Nh2KmPVYI3KU66627Zj3U" as="fetch" type="application/wasm">
+<link rel="modulepreload" href="rust-webassembly/rust-app-df234a7f7e8c425f.js" crossorigin="anonymous" integrity="sha384-EGUVBXal0E3SmCG7gWMRrlhdR1awpx_QAGzA2UVVOp5fVpwTa8T_4_YLYOeJtN81"></head>
+<body>
+    
+
+
+<script type="module">
+import init, * as bindings from 'rust-webassembly/rust-app-df234a7f7e8c425f.js';
+init('rust-webassembly/rust-app-df234a7f7e8c425f_bg.wasm');
+window.wasmBindings = bindings;
+
+</script></body></html>
